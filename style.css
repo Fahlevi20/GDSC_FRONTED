@@ -1,132 +1,136 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(231, 185, 185);
+body {
+    background-image: linear-gradient(to bottom, #f0f0f0, #1e0338 80%);
     color: #555;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    line-height: 1.6rem;
-    margin: 0;
+    line-height: 1.6;
 }
 
 .background {
-
     background-image: url('/images/64cf0bd1cf1f4.png');
     background-position: center;
+    background-repeat: no-repeat;
     height: 300px;
-    width: auto;
-    background-repeat: ;
+    width: 100%;
 }
 
-a:hover{
+a:hover {
     color: red;
     text-decoration: none;
 }
 
-.body-content{
+.body-content {
     padding: 1.5rem;
     width: fit-content;
     margin: auto;
 }
 
-.header-title{
-    background-color: blue;
-    color: white;
+.header-title {
+    background-image: linear-gradient(to right, #e0e0e0, #f0f0f0);
+    color: gray;
     padding: 20px;
+    text-align: center;
 }
 
-.navbar{
-    background-color: #555;
+.navbar {
+    background-image: linear-gradient(to bottom, #e0e0e0, #d8d8d8);
     padding: 10px 20px;
 }
 
-.navbar ul{
+.navbar ul {
     list-style: none;
     padding: 0;
 }
-.navbar li{
+
+.navbar li {
     display: inline;
+    margin-right: 10px;
 }
 
 .navbar-item a:link,
 .navbar-item a:visited,
-.navbar-item a:active{
+.navbar-item a:active {
     text-decoration: none;
-    color: white;
+    color: blue;
 }
 
-.categories{
-    border: 1px solid;
-    padding: 10px;
-    padding-bottom: 20px;
+.categories {
+    border: 1px solid #555;
+    padding: 10px 20px;
     border-radius: 15px;
-
+    background-image: linear-gradient(to bottom, #e0e0e0, #f0f0f0);
 }
 
-.categories h3{
+.categories h3 {
     text-align: center;
 }
 
-.categories ul{
+.categories ul {
     list-style: none;
-    padding: 10px;
+    padding: 0;
 }
 
-.categories li{
+.categories li {
     padding-bottom: 10px;
     border-bottom: dotted 1px #555;
 }
 
-.myForm{
+.myform {
     padding: 10px;
 }
 
-.myform h3{
+.myform h3 {
     text-align: center;
 }
 
-.myform .formGroup{
+.myform .formGroup {
     padding: 15px;
-
 }
 
-.myform label{
+.myform label {
     display: block;
+    margin-bottom: 5px;
 }
 
-.myform input[type='text'],
-.myform textarea{
+.myform .formGroup input[type='text'],
+.myform .formGroup textarea {
     padding: 8px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
-.button{
+.button {
     background-color: #555;
     color: white;
     padding: 10px 20px;
     border: none;
+    cursor: pointer;
 }
 
-.button:hover{
-    color:red;
+.button:hover {
+    color: red;
 }
 
-.footer-content{
+.footer-content {
     text-align: center;
-    background-color: #555;
+    background-image: linear-gradient(to top, #1e0338, #000000);
     color: white;
+    padding: 10px;
 }
 
 .block {
     float: left;
     width: 50%;
-    border: dotted 1px;
+    border: dotted 1px #555;
     padding: 10px;
 }
 
-.clr{
+.clr {
     clear: both;
 }

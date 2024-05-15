@@ -4,126 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Blog</title>
-    <!-- <link rel="icon"type='image/jpg' href=""> -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-<header>
-    <div class="header-title">
-        <h1>My website</h1>
-
-    </div>
-    <div class="navbar">
-        <ul>
-            <li class="navbar-item"><a href="#html">Home</a></li>
-            <li class="navbar-item"><a href="about.html">About</a></li>
-            <li class="navbar-item"> Contact</li>
-        </ul>
-    </div>
-    <div class="background">
-        hehe
-    </div>
-
-</header>
-<div class="body-content">
-    <section id="html">
-        <article class="post">
-            <h3>First blog</h3>
-            <small>Posted by levi on 15th May 2024</small>
-            <p>
-                lorem ipsum dolor sit amet, blablabla
-            </p>
-            <a> <link href=""</a>
-        </article>
-
-        <article class="post">
-            <h3>Second blog</h3>
-            <small>Posted by levi on 15th May 2024</small>
-            <p>
-                lorem ipsum dolor sit amet, blablabla
-            </p>
-        </article>
-        <div class="categories">
-            <h3>Categories</h3>
+    <header>
+        <div class="header-title">
+            <h1>My Website</h1>
+        </div>
+        <div class="navbar">
             <ul>
-                <li><a href="#html">Categories 1</a></li>
-                <li>Categories 2</li>
-                <li>Categories 3</li>
+                <li class="navbar-item"><a href="#html">Home</a></li>
+                <li class="navbar-item"><a href="about.html">About</a></li>
+                <li class="navbar-item">Contact</li>
             </ul>
         </div>
-        
-        <!-- FORM -->
-        <form class="myform">
+        <div class="background">
+            
+        </div>
+    </header>
+    <div class="body-content">
+        <section id="html">
+            <article class="post">
+                <h3>First Blog</h3>
+                <small>Posted by Levi on 15th May 2024</small>
+                <p>lorem ipsum dolor sit amet, blablabla</p>
+                <a href="#">Link</a> <!-- Fixed the link -->
+            </article>
+            <article class="post">
+                <h3>Second Blog</h3>
+                <small>Posted by Levi on 15th May 2024</small>
+                <p>lorem ipsum dolor sit amet, blablabla</p>
+            </article>
+            <div class="categories">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#html">Category 1</a></li>
+                    <li>Category 2</li>
+                    <li>Category 3</li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <form class="myform">
                 <h3>Your Feedback</h3>
-        <div class="formGroup">
-            <label>First Name</label>
-            <input type="text" name="FirstName" placeholder="Enter First Name"/>
+                <div class="formGroup">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="FirstName" placeholder="Enter First Name"/>
+                </div>
+                <div class="formGroup">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="LastName" placeholder="Enter Last Name"/>
+                </div>
+                <div class="formGroup">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="Message"></textarea>
+                </div>
+                <div class="formGroup">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" value="30"/>
+                </div>
+                <div class="formGroup">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                </div>
+                <div class="formGroup">
+                    <label for="birthday">Birthday</label>
+                    <input type="date" id="birthday" name="birthday"/>
+                </div>
+                <input class="button" type="submit" name="submit" value="Submit"/>
+            </form>
+        </section>
+        <div class="block">
+            <h3>First Blog</h3>
+            <small>Posted by Levi on 15th May 2024</small>
+            <p>lorem ipsum dolor sit amet, blablabla</p>
         </div>
-        <div class="formGroup">
-            <label>Last Name</label>
-            <input type="text" name="LastName" placeholder="Enter Last Name"/>
+        <div class="block">
+            <h3>First Blog</h3>
+            <small>Posted by Levi on 15th May 2024</small>
+            <p>lorem ipsum dolor sit amet, blablabla</p>
         </div>
-        <div class="formGroup">
-            <label>Message</label>
-            <textarea name="Message"></textarea>
-        </div>
-        <div class="formGroup">
-            <label>
-                Age
-            </label>
-            <input type="number" value="30"/>
-        </div>
-        <div class="formGroup">
-            <label>Gender</label>
-            <select name="gender">
-                <option value="Female">Female</option>
-                <option value="Male">Male</option>
-            </select>
-        </div>
-        <div class="formGroup">
-            <label>Birthday</label>
-            <input type="date" name="birthday"/>
-        </div>
-        <input class="button" type="submit" name="submit" value="submit"/>
-    </form>
-    <!-- <table>
-        <thead>
-            <tr>
-                <th>name</th>
-                <th>gender</th>
-                <th>age</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Fahlevi</td>
-                <td>Female</td>
-                <td>18</td>
-            </tr>
-        </tbody>
-    </table> -->
-</div>
-    </section>
-    <div class="block">
-        <h3>First blog</h3>
-            <small>Posted by levi on 15th May 2024</small>
-            <p>
-                lorem ipsum dolor sit amet, blablabla
-            </p>
+        <div class="clr"></div>
     </div>
-    <div class="block">
-        <h3>First blog</h3>
-            <small>Posted by levi on 15th May 2024</small>
-            <p>
-                lorem ipsum dolor sit amet, blablabla
-            </p>
-    </div>
-    
-<footer class="footer-content">
-    Bye|copyright
-
-</footer>
-
+    <footer class="footer-content">
+        Bye | &copy;fahlevi 2024
+    </footer>
 </body>
 </html>
