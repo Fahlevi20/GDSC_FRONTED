@@ -13,7 +13,7 @@ body {
 }
 
 .background {
-    background-image: url('/images/64cf0bd1cf1f4.png');
+    background-image: url(/images/64cf0bd1cf1f4.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 300px;
