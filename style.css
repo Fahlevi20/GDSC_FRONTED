@@ -79,3 +79,54 @@ a:hover{
     padding-bottom: 10px;
     border-bottom: dotted 1px #555;
 }
+
+.myForm{
+    padding: 10px;
+}
+
+.myform h3{
+    text-align: center;
+}
+
+.myform .formGroup{
+    padding: 15px;
+
+}
+
+.myform label{
+    display: block;
+}
+
+.myform input[type='text'],
+.myform textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.button:hover{
+    color:red;
+}
+
+.footer-content{
+    text-align: center;
+    background-color: #555;
+    color: white;
+}
+
+.block {
+    float: left;
+    width: 50%;
+    border: dotted 1px;
+    padding: 10px;
+}
+
+.clr{
+    clear: both;
+}
