@@ -1,4 +1,13 @@
-let name = 'levi';
-const age = 18;
+let x = 10;
+let y = 5;
 
-console.log(name);
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+
+console.log(x>y);
+console.log(x==y);
+console.log(x<y);
+
+let 
