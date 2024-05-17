@@ -31,3 +31,10 @@ if(age >= 18){
 for (let i=1; i<5; i++){
     console.log(i)
 }
+
+//while
+let count = 0;
+while (count < 5){
+    console.log(count);
+    count++
+}
