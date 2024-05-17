@@ -10,4 +10,9 @@ console.log(x>y);
 console.log(x==y);
 console.log(x<y);
 
-let 
+let isAult = true;
+let hasLicense = false;
+
+console.log(isAult && hasLicense);
+console.log(isAult || hasLicense);
+console.log(!isAult);
